@@ -31,7 +31,7 @@ Use the template in [references/prompt-template.md](references/prompt-template.m
 - Make the white drawing look physically on the glass closest to the camera: slight natural reflection is acceptable, but keep it sharp and distinct from the outdoor subject.
 - Draw only decisive identifying features of the imagined form: for example ears, horns, eyes, wings, a fin, paws, antennae, or a tail. Follow the real silhouette rather than enclosing it with a generic icon.
 - Use very thick, simple, deliberately hand-drawn white marker, crayon, or glass-pen lines. Avoid fine linework, fills, shading, or polished vector geometry.
-- Optionally add one or two tiny, related pictograms only if they clarify the association without crowding the image.
+- Add 1–5 tiny, strongly related pictograms near the subject by default. Draw them in the same thick white glass-marker language; omit them only when the user explicitly asks for no icons.
 - Keep all text, letters, numbers, signatures, watermarks, interface elements, and decorative frames out.
 
 ## Delivery

@@ -15,9 +15,9 @@ The source photograph remains recognisable: its subject, composition, perspectiv
 `玻璃表面手绘线条 → 窗外真实主体 → 原始环境背景`
 `foreground glass doodle → real subject outdoors → original background`
 
-默认画幅为 4:5，并避免修改主体、厚重雾气、水汽、复杂插画、细线稿、文字、UI 元素和水印。
+默认画幅为 4:5。主体附近默认会补充 1–5 个与想象形象强相关的极简白色小图标；只有用户明确要求时才不添加。效果避免修改主体、厚重雾气、水汽、复杂插画、细线稿、文字、UI 元素和水印。
 
-By default, generation uses a 4:5 canvas. It avoids replacing the subject, fogging the window, intricate illustration, thin lines, captions, UI elements, and watermarks.
+By default, generation uses a 4:5 canvas and adds 1–5 tiny white icons strongly related to the imagined form near the subject, unless the user explicitly opts out. It avoids replacing the subject, fogging the window, intricate illustration, thin lines, captions, UI elements, and watermarks.
 
 ## 安装 / Install
 
