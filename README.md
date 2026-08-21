@@ -19,6 +19,14 @@ Each upload produces one independent poster—never a multi-photo collage. The e
 
 The lower panel adds 1–5 tiny white icons strongly related to the imagined form near the subject by default, unless the user explicitly opts out. It avoids replacing the subject, fogging the window, intricate illustration, thin lines, captions, UI elements, and watermarks.
 
+## 效果预览 / Preview
+
+上半保留照片的真实场景与轻微杂志调色；下半使用同一场景，通过玻璃上的白色粗笔涂鸦，将小车联想成小狗。
+
+The upper panel remains a lightly graded real photo; the lower panel uses the same scene and turns the car into a puppy-like visual association with bold white window-marker doodles.
+
+![3:4 two-panel glass doodle poster preview](assets/glass-doodle-poster-preview.png)
+
 ## 安装 / Install
 
 将仓库克隆至 Codex skills 目录 / Clone the repository into a Codex skill directory:
