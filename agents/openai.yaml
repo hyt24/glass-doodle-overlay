@@ -1,4 +1,4 @@
 interface:
-  display_name: "玻璃涂鸦叠画"
-  short_description: "把真实照片主体联想为可爱玻璃前景线稿涂鸦"
-  default_prompt: "使用 $glass-doodle-overlay，把我上传照片里的主体画成指定想象形象的玻璃涂鸦。"
+  display_name: "玻璃涂鸦双联海报"
+  short_description: "把每张照片做成上下等高的玻璃涂鸦双联海报"
+  default_prompt: "使用 $glass-doodle-overlay，将每张上传照片做成 3:4 上下等高海报：上半保留原图，下半做玻璃涂鸦。"
