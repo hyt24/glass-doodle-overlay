@@ -1,5 +1,12 @@
 # Visual style guide
 
+## Fixed poster composition
+
+- Make every source image into one standalone 3:4 vertical poster. Never merge multiple uploaded photos into one output.
+- Split the composition exactly 1:1 by height: the upper half is the lightly graded original photograph; the lower half is the glass-doodle version of the same scene.
+- Keep both panels visually aligned to the same source world and preserve the main subject in each. Use only natural background expansion to fit the fixed crop.
+- Keep the upper panel photographic and restrained: subtle exhibition-print color grading is welcome; stylization, illustrated texture, artificial lens effects, or a changed subject are not.
+
 ## Scene preservation
 
 - Treat the photo as a documentary base. Preserve real geometry, background, focal subject, lighting direction, exposure, and composition.

@@ -1,23 +1,23 @@
-# 玻璃涂鸦叠画 / Glass Doodle Overlay
+# 玻璃涂鸦双联海报 / Glass Doodle Overlay Poster
 
-一个 Codex 生图编辑 skill：保留真实照片，并在近处玻璃表面用几笔极粗的白色线条补画，让主体自然呈现“它看起来像……”的可爱联想效果。
+一个 Codex 生图编辑 skill：将每张上传照片各自制作成固定 3:4 的上下双联海报。上半保留真实照片，下半在近处玻璃表面用极粗白色线条补画，让主体自然呈现“它看起来像……”的可爱联想效果。
 
-A Codex image-editing skill for the “it looks like…” window-doodle effect: preserve a real photograph, then use a handful of thick white marker strokes on the foreground glass to make one subject read as a cute imagined character or object.
+A Codex image-editing skill that makes every uploaded photo into an independent fixed 3:4 two-panel poster: retain the real photograph above, then use thick white foreground-glass doodles below to make one subject read as a cute imagined character or object.
 
 ## 效果 / What it creates
 
-原图的主体、构图、透视和光线保持不变。画面像摄影者在室内隔着窗户向外看，然后顺手在窗玻璃上补画；线条与窗外真实主体对齐，但不会把主体直接替换成完整动物或奇幻角色。
+每张上传照片独立输出，绝不多图拼接。海报为严格 3:4 竖版，上下两部分高度严格 1:1、各占 50%。上半保留原图的主体结构、真实质感、自然光影和色彩氛围，仅做轻微高级摄影调色；下半复用同一场景进行玻璃涂鸦叠画。
 
-The source photograph remains recognisable: its subject, composition, perspective, and lighting stay intact. The edit adds a deliberately simple white drawing aligned to the subject, as though someone standing indoors has casually sketched on the window pane while looking outside.
+Each upload produces one independent poster—never a multi-photo collage. The exact 3:4 vertical layout has two equal-height 50% panels. The upper panel preserves the photo with subtle premium editorial grading; the lower panel reuses the same scene for the glass-doodle overlay.
 
-始终维持清晰的空间层次 / The effect always protects the depth order:
+下半部分始终维持清晰的空间层次 / The lower panel always protects the depth order:
 
 `玻璃表面手绘线条 → 窗外真实主体 → 原始环境背景`
 `foreground glass doodle → real subject outdoors → original background`
 
-默认画幅为 4:5。主体附近默认会补充 1–5 个与想象形象强相关的极简白色小图标；只有用户明确要求时才不添加。效果避免修改主体、厚重雾气、水汽、复杂插画、细线稿、文字、UI 元素和水印。
+主体附近默认会补充 1–5 个与想象形象强相关的极简白色小图标；只有用户明确要求时才不添加。效果避免修改主体、厚重雾气、水汽、复杂插画、细线稿、文字、UI 元素和水印。
 
-By default, generation uses a 4:5 canvas and adds 1–5 tiny white icons strongly related to the imagined form near the subject, unless the user explicitly opts out. It avoids replacing the subject, fogging the window, intricate illustration, thin lines, captions, UI elements, and watermarks.
+The lower panel adds 1–5 tiny white icons strongly related to the imagined form near the subject by default, unless the user explicitly opts out. It avoids replacing the subject, fogging the window, intricate illustration, thin lines, captions, UI elements, and watermarks.
 
 ## 安装 / Install
 
@@ -36,20 +36,20 @@ Or copy this folder to a project-local skill directory such as `.agents/skills/g
 
 ## 使用 / Use
 
-上传照片后调用 skill，并说明真实主体和要联想的形象。 / Attach a photo and invoke the skill, specifying the real subject and the imagined form:
+上传照片后调用 skill，并说明真实主体和要联想的形象。多张照片将自动分别输出。 / Attach photos and invoke the skill, specifying the real subject and the imagined form; multiple uploads are output separately:
 
 ```text
-使用 $glass-doodle-overlay：把窗外那辆白色小车想象成一只小狗，保持原图场景不变。
+使用 $glass-doodle-overlay：把窗外那辆白色小车想象成一只小狗；每张图做成 3:4 上下等高海报，上半保留原图，下半做玻璃涂鸦。
 ```
 
 ```text
-Use $glass-doodle-overlay: make the cloud shaped like a whale, with only a few thick white doodle lines on the foreground glass.
+Use $glass-doodle-overlay: make each uploaded photo a 3:4 equal-height two-panel poster; keep the photo above and make the cloud read as a whale through thick white glass doodles below.
 ```
 
 ## 文件说明 / Included files
 
 - `SKILL.md` — 工作流、编辑规则和质量检查 / workflow, editing rules, and quality checks.
-- `references/style-guide.md` — 原图保持与涂鸦视觉规范 / scene-preservation and doodle-art-direction rules.
+- `references/style-guide.md` — 原图保持、固定版式与涂鸦视觉规范 / scene preservation, fixed layout, and doodle art direction.
 - `references/prompt-template.md` — 可复用的生图提示词模板 / a reusable generation prompt template.
 - `agents/openai.yaml` — Codex 界面元数据 / Codex UI metadata.
 
